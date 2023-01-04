@@ -1,2 +1,2 @@
 # Pytest-and-Selenium
-Обучение веб тетированию на основе Selenium Web Driver
+Обучение веб тетированию на основе Selenium Webdriver
