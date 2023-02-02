@@ -14,10 +14,7 @@ try:
 	browser.get(link)
 
 	book = browser.find_element(By.ID, "book")
-	button = WebDriverWait(browser, 12).until(
-		EC.text_to_be_present_in_element((By.ID, "price"), "100")
-	)
-
+	WebDriverWait(browser, 12).until(EC.text_to_be_present_in_element((By.ID, "price"), "100"))
 	book.click()
 
 	x = browser.find_element(By.ID, "input_value")
