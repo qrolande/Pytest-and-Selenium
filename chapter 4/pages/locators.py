@@ -19,3 +19,7 @@ class TheShellcodersHandboolLocators():
     IS_AVAILABLE = (By.CLASS_NAME, "icon-ok")
     ANSWER_NAME = (By.CSS_SELECTOR, "#messages > div:nth-child(1) > div > strong")
     ANSWER_PRICE = (By.CSS_SELECTOR, "#messages > div.alert.alert-safe.alert-noicon.alert-info.fade.in > div > p:nth-child(1) > strong")
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_VALID = (By.CSS_SELECTOR, "#login_link")
