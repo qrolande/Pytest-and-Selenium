@@ -11,6 +11,8 @@ class LoginPageLocators:
     RGISTR_LOGIN = (By.ID, "id_registration-email")
     RGISTR_PASSWORD = (By.ID, "id_registration-password1")
     RGISTR_CONFIRM_PASSWORD = (By.ID, "id_registration-password2")
+    REG_BUTT = (By.NAME, "registration_submit")
+    MESSAGE_TXT = (By.CSS_SELECTOR, "#messages > div > div")
 
 class TheShellcodersHandboolLocators:
     ADD_TO_BASKET = (By.CSS_SELECTOR, "#add_to_basket_form > button")
@@ -24,6 +26,7 @@ class BasePageLocators:
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_LINK_VALID = (By.CSS_SELECTOR, "#login_link")
     BASKET = (By.CSS_SELECTOR, "#default > header > div.page_inner > div > div.basket-mini.pull-right.hidden-xs > span > a")
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 class BasketPageLocators:
     EMPTY_BASKET = (By.CSS_SELECTOR, "#content_inner > p")
